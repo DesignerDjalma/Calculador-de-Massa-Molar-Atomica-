@@ -1,5 +1,5 @@
 
-[!(https://img.shields.io/badge/Follow%20@3Djhey-613-red.svg?style=social&logo=instagram)](https://github.com/DesignerDjalma/Calculador-de-Massa-Molar-Atomica-/)
+[![Social Media instagram](https://img.shields.io/badge/Follow%20@3Djhey-613-red.svg?style=social&logo=instagram)](https://github.com/DesignerDjalma/Calculador-de-Massa-Molar-Atomica-/)
 
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/DesignerDjalma/Calculador-de-Massa-Molar-Atomica-/)
