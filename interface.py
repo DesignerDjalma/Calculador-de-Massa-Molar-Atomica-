@@ -2,7 +2,7 @@ import time
 from funcoes import calcular_massa_molar_de_elemento
 import ttkbootstrap as ttkbs
 from constantes import *
-from equation import abre_equacao
+from latex import equacao_latex
 
 class InterfaceTkBS(ttkbs.Frame):
 
@@ -26,9 +26,9 @@ class InterfaceTkBS(ttkbs.Frame):
         self.resultado = ttkbs.Label(master=self, textvariable=self.resultado_txt, width=30)
         self.resultado.pack(fill=HORIZONTAL, pady=10)
 
-    def on_formula(self) -> None:
+    def on_equacao(self) -> None:
         if self.tres:
-            abre_equacao(self.tres, self.sigla.lower().capitalize())
+            equacao_latex(self.tres, self.sigla.lower().capitalize())
 
     def on_calcular(self) -> None:
         """Calcula a massa molar e mostra o resutado na interface."""
@@ -66,18 +66,18 @@ class InterfaceTkBS(ttkbs.Frame):
             bootstyle=BTN_VERDE,
             )
 
-        btn_formula_txt = "Formula"
-        btn_formula = ttkbs.Button(
+        btn_equacao_txt = "Equação"
+        btn_equacao = ttkbs.Button(
             master=container,
-            text=btn_formula_txt,
-            width=len(btn_formula_txt)+2,
-            command=self.on_formula,
+            text=btn_equacao_txt,
+            width=len(btn_equacao_txt)+2,
+            command=self.on_equacao,
             bootstyle=BTN_AZUL,
             )
         
         btn_cancelar.pack(side=DIREITA, padx=5)
         btn_calcular.pack(side=DIREITA, padx=5)
-        btn_formula.pack(side=DIREITA, padx=5)
+        btn_equacao.pack(side=DIREITA, padx=5)
         btn_calcular.focus_set()
 
     def criar_form(self, titulo: str, variavel: ttkbs.StringVar) -> None:
@@ -106,8 +106,7 @@ class App:
         app = ttkbs.Window(
             title="App: Cálculo Mol",
             themename="superhero",
-            resizable=(0, 0)
-            )
+            resizable=(0, 0))
         InterfaceTkBS(app)
         app.mainloop()
 
