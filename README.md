@@ -4,7 +4,7 @@
   Calculador de Massa Molar
 </h1>
 
-![awesome](https://img.shields.io/badge/awesome-yes-green)&emsp;![](https://visitor-badge.glitch.me/badge?page_id=DesignerDjalma)&emsp;[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DesignerDjalma/Calculador-de-Massa-Molar-Atomica-/)&emsp;[![Social Media instagram](https://img.shields.io/badge/Follow%20@3Djhey-613-red.svg?style=social&logo=instagram)](https://www.instagram.com/3djhey/)
+![awesome](https://img.shields.io/badge/awesome-yes-green)&emsp;![](https://visitor-badge.glitch.me/badge?page_id=DesignerDjalma)&emsp;[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/DesignerDjalma/Calculador-de-Massa-Molar-Atomica-/blob/main/LICENSE)&emsp;[![Social Media instagram](https://img.shields.io/badge/Follow%20@3Djhey-613-red.svg?style=social&logo=instagram)](https://www.instagram.com/3djhey/)
 
 
 # Calculador de Massa Molar Atomica
@@ -15,6 +15,9 @@ Um simples Programa feito em ttkbootstrap para realizar calculo de massa molar a
 ```bash
 $ python main.py
 ```
+
+## Interface
+<img src="https://github.com/DesignerDjalma/Calculador-de-Massa-Molar-Atomica-/blob/main/images/app_tela_inicial.png" height="200px"/>
 
 
 ## License
