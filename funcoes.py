@@ -3,9 +3,6 @@ from typing import List, Tuple
 from atomos import Atomos
 
 
-
-
-
 def verificar_elementos(sigla: str="H") -> Tuple[str, str]:
     """Verifica se a Sigla fornecida pertence a Tabela Periódica."""
     siglas: List[str] = [ elemento['sigla'] for elemento in Atomos.propriedades ]
