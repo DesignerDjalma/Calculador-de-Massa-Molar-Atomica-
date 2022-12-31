@@ -1,8 +1,9 @@
+from constantes import CONST_AVOGRADO
 from typing import List, Tuple
 from atomos import Atomos
 
 
-CONST_AVOGRADO: float = 6.022 * (10**23)
+
 
 
 def verificar_elementos(sigla: str="H") -> Tuple[str, str]:
@@ -24,7 +25,8 @@ def calc_massa_molar(massa_atomica: float, nome: str) -> str:
         return f"Só é possivel calcular a massa \nmolar para elementos conhecidos."
 
  
-def calcular_massa_molar_de_elemento(sigla: str="H"):
+def calcular_massa_molar_de_elemento(sigla: str="H") -> str:
+    """Apartir da sigla de um elemento químico calcula a massa molar"""
     return calc_massa_molar(*verificar_elementos(sigla=sigla))
 
 
