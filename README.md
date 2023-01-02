@@ -14,6 +14,11 @@ Um simples Programa feito em ttkbootstrap para realizar calculo de massa molar a
 - Python 3.10
 - ttkbootstrap
 
+## Requirements
+```bash
+$ python -m pip install -r .\requirements.txt
+```
+
 ## Iniciando Aplicação
 ```bash
 $ python main.py
@@ -32,8 +37,8 @@ O botão "Equação" tem duas funcionalidades. A primeira, printa no console uma
 ```txt
 Equação Latex:
 
-{Hg}_{mm}={3,331}.10^{-22}g/mol
-Hg \to Mercurio
+\\*{Hg}_{mm}={3,331}.10^{-22}g/mol\\*
+Hg \to Mercurio\\*
 mm \to massa\ molar
 ```
 
