@@ -8,7 +8,7 @@
 
 
 # Calculador de Massa Molar Atomica
-Um simples Programa feito em ttkbootstrap para realizar calculo de massa molar atomica dos elementos da tabela periodica
+Um simples Programa feito em ttkbootstrap para realizar calculo de massa molar atomica dos elementos da tabela periodica! Check it out now!
 
 ### Ferramentas utilizadas: 
 - Python 3.10
